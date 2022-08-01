@@ -18,6 +18,9 @@
             <breeze-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
               Dashboard
             </breeze-nav-link>
+            <breeze-nav-link :href="route('account')" :active="route().current('account')">
+              Account
+            </breeze-nav-link>
           </ul>
 
           <!-- Right Side Of Navbar -->
